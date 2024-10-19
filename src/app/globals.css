@@ -25,3 +25,31 @@ body {
     text-wrap: balance;
   }
 }
+
+.body-bg {
+  background-color: #f3eee8;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+.bg-grad-white {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, 0));
+}
+
+.homebg1 {
+  background-color: #eae3e1;
+  background-image: url('/images/homebg1.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.font-merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.font-poppins{
+  font-family: Poppins, sans-serif;
+}
