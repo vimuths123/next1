@@ -13,7 +13,7 @@ export default function Home() {
           media="all"
         />
       </Head>
-      <div className="min-h-screen h-auto max-h-none homebg1">
+      <div className="min-h-screen h-auto max-h-none homebg1 section1">
         <div className="flex h-screen min-h-screen pt-[50px] xl:pt-[50px]">
 
           <div className="flex flex-col justify-center items-center w-[45%] h-full pt-0">
@@ -48,6 +48,77 @@ export default function Home() {
               sizes="(max-width: 991px) 100vw, 55vw"
               priority
             />
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[#292f36] section2">
+        <div className="py-[150px]">
+          <div className="container mx-auto w-[90%] max-w-[1200px]">
+            <div className="grid grid-cols-4 gap-y-6">
+              <div className="flex items-center">
+                <div className="px-[54px]">
+                  <div>
+                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                      12
+                    </h1>
+                  </div>
+                  <div>
+                    <p className="text-white text-center text-[22px] leading-[33px]">
+                      Years Of Experiance
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[1px] h-[155px] bg-white mx-auto"></div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="px-[54px]">
+                  <div>
+                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                      85
+                    </h1>
+                  </div>
+                  <div>
+                    <p className="text-white text-center text-[22px] leading-[33px]">
+                      Success Project
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[1px] h-[155px] bg-white mx-auto"></div>
+              </div>
+              <div className="flex items-center">
+                <div className="px-[54px]">
+                  <div>
+                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                      15
+                    </h1>
+                  </div>
+                  <div>
+                    <p className="text-white text-center text-[22px] leading-[33px]">
+                      Active Project
+                    </p>
+                  </div>
+                </div>
+                <div className="w-[1px] h-[155px] bg-white mx-auto"></div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="px-[54px]">
+                  <div>
+                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                      95
+                    </h1>
+                  </div>
+                  <div>
+                    <p className="text-white text-center text-[22px] leading-[33px]">
+                      Years Of Experiance
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
