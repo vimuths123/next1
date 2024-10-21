@@ -142,7 +142,7 @@ export default function Home() {
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
                 <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
-                  Leveraging the best design talent is no longer a distant dream. With Metafy's on-demand Architectural Engineering subscription service, companies across the world can now tap into the elite 1% of global pre-vetted Architectural Engineers who can swiftly power up their creative output.
+                  Leveraging the best design talent is no longer a distant dream. With Metafy&apos;s on-demand Architectural Engineering subscription service, companies across the world can now tap into the elite 1% of global pre-vetted Architectural Engineers who can swiftly power up their creative output.
                   <br /><br />
                   Companies are no longer burdened with the challenge of costly hiring, they need not worry about rapidly laddering up members to match their requirements; Metafy eliminates all these hassles and ensures that your company enjoys smooth functioning with access to top-shelf creative elements.
                 </p>
@@ -163,7 +163,7 @@ export default function Home() {
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
                 <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
                   Our exceptional service provides big and small organizations alike with an efficient way to bring on the
-                  best Architectural Engineering talent – all at a fraction of traditional costs. Whether you need just
+                  best Architectural Engineering talent &ndash; all at a fraction of traditional costs. Whether you need just
                   one designer or are assembling an entire division from scratch, we can help you get it done without the
                   typical hassles associated with corporate overhead. No more lengthy legal processes getting in your way;
                   let us take care of finding experienced designers so that your team is ready for success.
@@ -202,9 +202,9 @@ export default function Home() {
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
                 <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
-                  If you're looking to significantly reduce your costs while accessing the best talent in the world, then Metafy's flexible pricing options is an ideal fit. We have a variety of plans to suit companies of all sizes. Depending on the amount of creative work you need to be completed we are able to create a custom plan for your specific needs.
+                  If you&apos;re looking to significantly reduce your costs while accessing the best talent in the world, then Metafy&apos;s flexible pricing options is an ideal fit. We have a variety of plans to suit companies of all sizes. Depending on the amount of creative work you need to be completed we are able to create a custom plan for your specific needs.
                   <br /><br />
-                  With Metafy's flexible pricing options, there's never been an easier or more cost-effective way to get the perfect team for your project.
+                  With Metafy&apos;s flexible pricing options, there&apos;s never been an easier or more cost-effective way to get the perfect team for your project.
                 </p>
               </div>
             </div>
