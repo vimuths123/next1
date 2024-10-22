@@ -211,6 +211,35 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className='section4'>
+        <div className='flex'>
+          <div className='w-[50%] flex justify-center items-center'>
+            <div className="w-[90%] mx-auto">
+              <div className="max-w-[438px] mx-auto">
+                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                  Fast Turnarounds
+                </h1>
+                <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                  With our powerful combination of resources at hand, we are confident that we can meet even the most difficult deadlines. No more stress or uncertainty associated with finding the right people for your job - our team is here to make sure you have the best experience possible when it comes to getting the job done in a timely manner.
+                  <br /><br />
+                  Our industry-leading on-demand subscription service offers companies the opportunity to tap into expert Architectural Engineering talent from around the world. Not only that, our swift turnaround times ensure projects are completed efficiently and accurately according to your specific requirements. With our global team, we are set up to accommodate even the most ambitious deadlines - giving you the perfect solution for fast turnarounds.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='w-[50%]'>
+            <Image
+              src="/images/section6home.png"
+              alt=""
+              className="w-full h-screen max-w-full align-middle inline-block"
+              width={1061}
+              height={1061} // Assuming it's a square image, adjust if not
+            />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
