@@ -240,6 +240,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className='section5'>
+        <div>
+          <div className="w-[90%] flex flex-col justify-center items-center mx-auto pt-60">
+            <h1 className="mt-0 font-serif text-[37px] font-normal leading-[45.7px]">
+              Designed for You
+            </h1>
+            <div className="w-[49px] h-[4px] bg-[#a06056] my-[26px]"></div>
+            <div className="max-w-[821px] text-center mx-auto">
+              <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                We&apos;ve designed and curated pieces that are a cut above your average home goods, because when you level up your everyday objects, you elevate your daily rituals. Let the magic happen.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </div>
     </>
   );
 }
