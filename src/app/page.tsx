@@ -259,13 +259,132 @@ export default function Home() {
           </div>
         </div>
         <div>
-        <Image
-              src="/images/section5home2.png"
+          <Image
+            src="/images/section5home2.png"
+            alt=""
+            className="w-full max-w-full"
+            width={1061}
+            height={1061} // Assuming it's a square image, adjust if not
+          />
+        </div>
+      </div>
+
+      <div className='section5'>
+        <div className="w-[90%] mx-auto pt-[200px] pb-[300px]">
+          <div className="flex flex-col justify-center items-center">
+            <Image
+              src="/images/section5home3.svg"
               alt=""
-              className="w-full max-w-full"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              className="max-w-full align-middle inline-block mb-[35px]"
+              width={45}
+              height={45}
             />
+            <div className="w-[450px] text-center flex flex-col justify-center items-center mb-[100px]">
+              <h1 className="mt-0 font-merriweather text-[37px] font-normal leading-[45.7px]">
+                What Other Companies Are Saying
+              </h1>
+              <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]">
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[1180px] mx-auto shadow-[0_20px_30px_1px_rgba(0,0,0,0.15)]">
+            <div className="grid gap-0 grid-rows-[auto_auto] grid-cols-[.8fr_1fr] auto-cols-fr">
+              <div className="col-span-1 row-span-1 bg-white p-[35px]">
+                <div>
+                  <div className="flex flex-wrap gap-[5px] items-center pt-[24px] pb-[24px]">
+                    <Image
+                      src="/images/person1.png"
+                      alt=""
+                      width={61}
+                      height={61} />
+                    <div className="flex flex-col justify-center items-start">
+                      <h1 className="text-[#666] mt-0 mb-0 text-[14.4px] font-extrabold leading-[19.67px]">
+                        Kristin Watson
+                      </h1>
+                      <p className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
+                        Marketing Coordinator
+                      </p>
+                    </div>
+
+                  </div>
+                  <div className="p-[20px] pr-0">
+                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                      Growing our team was a breeze. We instantly had access to some of the best talent in the world without
+                      any of the overhead cost associated with traditional hiring. We found that it was easy to
+                      effortlessly scale our team to suit our needs and we could do so quickly and with confidence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 grid-rows-[auto] gap-0 auto-cols-fr bg-white">
+                <Image
+                  src="/images/section5home4.png"
+                  alt=""
+                  width={400}
+                  height={400}
+                  className="col-span-1 row-span-1 w-full h-full max-w-full align-middle inline-block object-cover" />
+                <div className="max-w-[80%] flex flex-col justify-center items-start mx-auto">
+                  <div className="flex flex-wrap gap-[5px] items-center pt-[24px] pb-[24px]">
+                    <Image
+                      className="rounded-full max-w-full align-middle inline-block"
+                      src="/images/person2.png"
+                      alt=""
+                      width={61}
+                      height={61} />
+                    <div className="flex flex-col justify-center items-start">
+                      <h1 className="text-[#666] mt-0 mb-0 text-[14.4px] font-extrabold leading-[19.67px]">
+                        Erica Morgan
+                      </h1>
+                      <p className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
+                        Human Resource Manager
+                      </p>
+                    </div>
+                  </div>
+                  <div className="p-[20px] pr-0">
+                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                      They are able to get us the marketing creative we need quickly to help us close more sales. Its been an absolute pleasure working with them.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <Image
+                src="/images/section5home5.png"
+                alt=''
+                width={400}
+                height={400}
+                className="col-span-1 row-span-1 w-full h-full object-cover max-w-full align-middle inline-block" />
+              <div className="grid grid-cols-2 grid-rows-[auto] gap-0 auto-cols-fr bg-white">
+                <div className="max-w-[80%] flex flex-col justify-center items-start mx-auto">
+                  <div className="flex flex-wrap gap-[5px] items-center pt-[24px] pb-[24px]">
+                    <Image
+                      src="/images/person3.png"
+                      alt=""
+                      width={61}
+                      height={61}
+                      className="rounded-full max-w-full align-middle inline-block"
+                    />
+                    <div className="flex flex-col justify-center items-start">
+                      <h1 className="text-[#666] mt-0 mb-0 text-[14.4px] font-extrabold leading-[19.67px]">
+                        Ethan Mitchell
+                      </h1>
+                      <p className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
+                        Sales Executive
+                      </p>
+                    </div>
+
+                  </div>
+                  <div className="p-[20px] pr-0">
+                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                      I&#39;m incredibly impressed with the creativity and attention to detail of the design team. They brought my vision to life with precision.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </>
