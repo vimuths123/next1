@@ -254,9 +254,18 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div>
+
+          </div>
         </div>
         <div>
-
+        <Image
+              src="/images/section5home2.png"
+              alt=""
+              className="w-full max-w-full"
+              width={1061}
+              height={1061} // Assuming it's a square image, adjust if not
+            />
         </div>
       </div>
     </>
