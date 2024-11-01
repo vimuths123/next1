@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='section3'>
+      <div className='section5'>
         <div className='flex'>
           <div className='w-[50%]'>
             <Image
@@ -212,7 +212,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='section4'>
+      <div className='section6'>
         <div className='flex'>
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
@@ -241,7 +241,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='section5'>
+      <div className='section7'>
         <div>
           <div className="w-[90%] flex flex-col justify-center items-center mx-auto pt-60">
             <h1 className="mt-0 font-serif text-[37px] font-normal leading-[45.7px]">
@@ -269,7 +269,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='section5'>
+      <div className='section8'>
         <div className="w-[90%] mx-auto pt-[200px] pb-[300px]">
           <div className="flex flex-col justify-center items-center">
             <Image
@@ -381,10 +381,103 @@ export default function Home() {
 
                   </div>
                 </div>
+                <Image
+                  src="/images/section5home6.png"
+                  alt=''
+                  width={400}
+                  height={400}
+                  className="col-span-1 row-span-1 w-full h-full object-cover max-w-full align-middle inline-block" />
               </div>
             </div>
           </div>
 
+        </div>
+      </div>
+
+      <div className='section9'>
+        <div className='flex'>
+          <div className='w-[50%]'>
+            <Image
+              src="/images/section9home.png"
+              alt=""
+              className="w-full h-screen max-w-full align-middle inline-block"
+              width={1061}
+              height={1061} // Assuming it's a square image, adjust if not
+            />
+          </div>
+          <div className='w-[50%] flex justify-center items-center'>
+            <div className="w-[90%] mx-auto">
+              <div className="max-w-[438px] mx-auto">
+                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                  20X Faster Than Hiring Internally
+                </h1>
+                <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                  peed is the number one asset you need as an organization to win in your market. With us in your corner, we can supercharge your time to hire and get people making an impact immediately without the expensive hiring costs associated with expanding rapidly.
+                  <br /><br />
+                  We have teams of pre-vetted Architectural Engineers that are ready to take on even your most ambitious projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='section10'>
+        <div className='flex'>
+          <div className='w-[50%] flex justify-center items-center'>
+            <div className="w-[90%] mx-auto">
+              <div className="max-w-[438px] mx-auto">
+                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                  Eliminate Your Hiring Costs
+                </h1>
+                <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                  With design talent so hard to come by, it&#39;s no wonder the hiring process can become a total nightmare. From endless interviews and screenings, to painstakingly verifying a potential candidate&#39;s qualifications - why not let us take this burden away?
+                  <br /><br />
+                  By partnering with us you&#39;ll get access to top-notch Architectural Engineering talent who have delivered on even the toughest of tasks. Our goal is to enable you to focus on creating great products while we make sure your team is well equipped with the creative talent it needs - leaving those frustrating headaches behind.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='w-[50%]'>
+            <Image
+              src="/images/section10home.png"
+              alt=""
+              className="w-full h-screen max-w-full align-middle inline-block"
+              width={1061}
+              height={1061} // Assuming it's a square image, adjust if not
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className='section11'>
+        <div className='flex'>
+          <div className='w-[50%]'>
+            <Image
+              src="/images/section11home.png"
+              alt=""
+              className="w-full h-screen max-w-full align-middle inline-block"
+              width={1061}
+              height={1061} // Assuming it's a square image, adjust if not
+            />
+          </div>
+          <div className='w-[50%] flex justify-center items-center'>
+            <div className="w-[90%] mx-auto">
+              <div className="max-w-[438px] mx-auto">
+                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                  A Dedicated Team You Can Count On
+                </h1>
+                <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                  This is what we have so far &quot;With our dedicated team model it enables you to have the same experienced team members that know your business inside and out on a day-to-day basis. This is why our model succeeds where other outsourced teams fail.
+                  <br /><br />
+                  Working with us is like having an entire Architectural Engineering division that you don&#39;t have to worry about managing in house. Just communicate with your head of design and we can take care of the rest.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
