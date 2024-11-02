@@ -482,7 +482,7 @@ export default function Home() {
       </div>
 
       <div className="bg-no-repeat bg-cover bg-[0_0] section12"
-        style={{ backgroundImage: `url(${'/images/section12homebg.png'})` }}
+        style={{ backgroundImage: `url(${'/images/section12homebg.webp'})` }}
       >
         <div className="grid gap-x-[74px] gap-y-[24px] grid-rows-auto w-[90%] max-w-[1320px] grid-cols-[488px_1fr] auto-cols-fr items-start mx-auto pt-[140px] pb-[300px]">
           <div className="w-[488px] bg-[#292f36] p-[50px]">
