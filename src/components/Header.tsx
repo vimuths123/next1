@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image'
-import { poppins } from  '../app/fonts';
 
 const Header = () => {
     return (

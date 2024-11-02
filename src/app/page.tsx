@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { merriweather, poppins, dmSerifDisplay } from  './fonts';
+import { merriweather } from  './fonts';
 
 export default function Home() {
   return (
