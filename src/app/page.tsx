@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { merriweather, poppins, dmSerifDisplay } from  './fonts';
+import { merriweather, poppins, dmSerifDisplay, jost } from  './fonts';
 
 export default function Home() {
   return (
@@ -56,7 +56,7 @@ export default function Home() {
                     </h1>
                   </div>
                   <div>
-                    <p className="text-white text-center text-[22px] leading-[33px]">
+                    <p className={`${jost.className} text-white text-center text-[22px] leading-[33px]}`}>
                       Years Of Experiance
                     </p>
                   </div>
@@ -72,7 +72,7 @@ export default function Home() {
                     </h1>
                   </div>
                   <div>
-                    <p className="text-white text-center text-[22px] leading-[33px]">
+                    <p className={`${jost.className} text-white text-center text-[22px] leading-[33px]}`}>
                       Success Project
                     </p>
                   </div>
@@ -87,7 +87,7 @@ export default function Home() {
                     </h1>
                   </div>
                   <div>
-                    <p className="text-white text-center text-[22px] leading-[33px]">
+                    <p className={`${jost.className} text-white text-center text-[22px] leading-[33px]}`}>
                       Active Project
                     </p>
                   </div>
@@ -103,7 +103,7 @@ export default function Home() {
                     </h1>
                   </div>
                   <div>
-                    <p className="text-white text-center text-[22px] leading-[33px]">
+                    <p className={`${jost.className} text-white text-center text-[22px] leading-[33px]}`}>
                       Years Of Experiance
                     </p>
                   </div>
