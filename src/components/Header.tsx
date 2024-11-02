@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
+import { poppins } from  '../app/fonts';
 
 const Header = () => {
     return (
@@ -16,7 +17,7 @@ const Header = () => {
                             />
                         </Link>
                         <nav role="navigation"
-                            className="nav-menu text-black py-0 text-base font-normal leading-6 flex justify-center items-center float-right relative">
+                            className={`${poppins.className} nav-menu text-black py-0 text-base font-normal leading-6 flex justify-center items-center float-right relative`}>
                             <Link href={"/"} className="relative inline-block align-top no-underline text-[#222222] p-5 text-left mx-auto text-black py-0 font-poppins text-base font-normal leading-6 flex justify-center items-center">
                                 Home
                             </Link>
@@ -32,7 +33,7 @@ const Header = () => {
 
                             <div>
                                 <Link href={"/contact"} className="text-white bg-[#a06056] px-8 py-4 font-lexend text-[16px] font-semibold leading-[18px] inline-block border-0 no-underline cursor-pointer rounded-none">
-                                    Book A Call
+                                    Contact Us
                                 </Link>
                             </div>
                         </nav>

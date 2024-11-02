@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,7 +20,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @layer utilities {
@@ -50,10 +55,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-.font-poppins{
+.font-poppins {
   font-family: Poppins, sans-serif;
 }
 
-.font-dmserif{
+.font-dmserif {
   font-family: 'DM Serif Display', sans-serif;
 }
