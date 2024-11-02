@@ -9,48 +9,50 @@
 // export const dmSerifDisplay = DM_Serif_Display({ weight: ['400'], subsets: ['latin'] });
 // export const jost = Jost({ weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], subsets: ['latin'] });
 // export const roboto = Roboto({ weight: ['300', '400', '500', '700', '900'], subsets: ['latin'] });
-// app/fonts.js
+
+
+
 import localFont from 'next/font/local';
 
 export const merriweather = localFont({
   src: [
     {
-      path: '../../public/fonts/merriweather/Merriweather-Light.ttf',
+      path: './fonts/merriweather/Merriweather-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-LightItalic.ttf',
+      path: './fonts/merriweather/Merriweather-LightItalic.ttf',
       weight: '300',
       style: 'italic',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-Regular.ttf',
+      path: './fonts/merriweather/Merriweather-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-Italic.ttf',
+      path: './fonts/merriweather/Merriweather-Italic.ttf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-Bold.ttf',
+      path: './fonts/merriweather/Merriweather-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-BoldItalic.ttf',
+      path: './fonts/merriweather/Merriweather-BoldItalic.ttf',
       weight: '700',
       style: 'italic',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-Black.ttf',
+      path: './fonts/merriweather/Merriweather-Black.ttf',
       weight: '900',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/merriweather/Merriweather-BlackItalic.ttf',
+      path: './fonts/merriweather/Merriweather-BlackItalic.ttf',
       weight: '900',
       style: 'italic',
     },
