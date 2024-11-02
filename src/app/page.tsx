@@ -13,7 +13,7 @@ export default function Home() {
               <h3 className={`${merriweather.className} text-[#a06056] m-0 text-[60px] font-light leading-[70px]`}>
                 Your Remote Architectural Engineering Team
               </h3>
-              <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] m-0 text-base font-light leading-[30px]`}>
+              <p className={`text-[rgba(112,100,88,0.9)] m-0 text-base font-light leading-[30px]`}>
                 Metafy is an on-demand Architectural Engineering subscription service that enables companies to
                 access the top 1% of global talent, eliminate their cost of hiring, and effortlessly scale their.
                 Enter your email below to get started.
@@ -67,7 +67,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
+                    <h1 className={`text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       85
                     </h1>
                   </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
+                    <h1 className={`text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       15
                     </h1>
                   </div>
@@ -98,7 +98,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
+                    <h1 className={`text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       95
                     </h1>
                   </div>
