@@ -129,11 +129,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Access The Top 1% of Architectural Engineering Talent
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   Leveraging the best design talent is no longer a distant dream. With Metafy&apos;s on-demand Architectural Engineering subscription service, companies across the world can now tap into the elite 1% of global pre-vetted Architectural Engineers who can swiftly power up their creative output.
                   <br /><br />
                   Companies are no longer burdened with the challenge of costly hiring, they need not worry about rapidly laddering up members to match their requirements; Metafy eliminates all these hassles and ensures that your company enjoys smooth functioning with access to top-shelf creative elements.
@@ -149,11 +149,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Effortlessly Scale Your Team
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   Our exceptional service provides big and small organizations alike with an efficient way to bring on the
                   best Architectural Engineering talent &ndash; all at a fraction of traditional costs. Whether you need just
                   one designer or are assembling an entire division from scratch, we can help you get it done without the
@@ -189,11 +189,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Flexible Pricing Options
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   If you&apos;re looking to significantly reduce your costs while accessing the best talent in the world, then Metafy&apos;s flexible pricing options is an ideal fit. We have a variety of plans to suit companies of all sizes. Depending on the amount of creative work you need to be completed we are able to create a custom plan for your specific needs.
                   <br /><br />
                   With Metafy&apos;s flexible pricing options, there&apos;s never been an easier or more cost-effective way to get the perfect team for your project.
@@ -209,11 +209,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Fast Turnarounds
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   With our powerful combination of resources at hand, we are confident that we can meet even the most difficult deadlines. No more stress or uncertainty associated with finding the right people for your job - our team is here to make sure you have the best experience possible when it comes to getting the job done in a timely manner.
                   <br /><br />
                   Our industry-leading on-demand subscription service offers companies the opportunity to tap into expert Architectural Engineering talent from around the world. Not only that, our swift turnaround times ensure projects are completed efficiently and accurately according to your specific requirements. With our global team, we are set up to accommodate even the most ambitious deadlines - giving you the perfect solution for fast turnarounds.
@@ -232,16 +232,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      
       <div className='section7'>
         <div>
           <div className="w-[90%] flex flex-col justify-center items-center mx-auto pt-60">
-            <h1 className="mt-0 font-serif text-[37px] font-normal leading-[45.7px]">
+            <h1 className={`${merriweather.className} mt-0 font-serif text-[37px] font-normal leading-[45.7px]`}>
               Designed for You
             </h1>
             <div className="w-[49px] h-[4px] bg-[#a06056] my-[26px]"></div>
             <div className="max-w-[821px] text-center mx-auto">
-              <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+              <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                 We&apos;ve designed and curated pieces that are a cut above your average home goods, because when you level up your everyday objects, you elevate your daily rituals. Let the magic happen.
               </p>
             </div>
@@ -272,7 +272,7 @@ export default function Home() {
               height={45}
             />
             <div className="w-[450px] text-center flex flex-col justify-center items-center mb-[100px]">
-              <h1 className="mt-0 font-merriweather text-[37px] font-normal leading-[45.7px]">
+              <h1 className={`${merriweather.className} mt-0 font-merriweather text-[37px] font-normal leading-[45.7px]`}>
                 What Other Companies Are Saying
               </h1>
               <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]">
@@ -300,7 +300,7 @@ export default function Home() {
 
                   </div>
                   <div className="p-[20px] pr-0">
-                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                    <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                       Growing our team was a breeze. We instantly had access to some of the best talent in the world without
                       any of the overhead cost associated with traditional hiring. We found that it was easy to
                       effortlessly scale our team to suit our needs and we could do so quickly and with confidence.
@@ -333,7 +333,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-[20px] pr-0">
-                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                    <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                       They are able to get us the marketing creative we need quickly to help us close more sales. Its been an absolute pleasure working with them.
                     </p>
 
@@ -367,7 +367,7 @@ export default function Home() {
 
                   </div>
                   <div className="p-[20px] pr-0">
-                    <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                    <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                       I&#39;m incredibly impressed with the creativity and attention to detail of the design team. They brought my vision to life with precision.
                     </p>
 
@@ -400,11 +400,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   20X Faster Than Hiring Internally
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   peed is the number one asset you need as an organization to win in your market. With us in your corner, we can supercharge your time to hire and get people making an impact immediately without the expensive hiring costs associated with expanding rapidly.
                   <br /><br />
                   We have teams of pre-vetted Architectural Engineers that are ready to take on even your most ambitious projects.
@@ -420,11 +420,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Eliminate Your Hiring Costs
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   With design talent so hard to come by, it&#39;s no wonder the hiring process can become a total nightmare. From endless interviews and screenings, to painstakingly verifying a potential candidate&#39;s qualifications - why not let us take this burden away?
                   <br /><br />
                   By partnering with us you&#39;ll get access to top-notch Architectural Engineering talent who have delivered on even the toughest of tasks. Our goal is to enable you to focus on creating great products while we make sure your team is well equipped with the creative talent it needs - leaving those frustrating headaches behind.
@@ -458,11 +458,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className="mt-0 text-[37px] font-normal leading-[45.7px]">
+                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   A Dedicated Team You Can Count On
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   This is what we have so far &quot;With our dedicated team model it enables you to have the same experienced team members that know your business inside and out on a day-to-day basis. This is why our model succeeds where other outsourced teams fail.
                   <br /><br />
                   Working with us is like having an entire Architectural Engineering division that you don&#39;t have to worry about managing in house. Just communicate with your head of design and we can take care of the rest.
@@ -479,7 +479,7 @@ export default function Home() {
         <div className="grid gap-x-[74px] gap-y-[24px] grid-rows-auto w-[90%] max-w-[1320px] grid-cols-[488px_1fr] auto-cols-fr items-start mx-auto pt-[140px] pb-[300px]">
           <div className="w-[488px] bg-[#292f36] p-[50px]">
             <div className="max-w-[388px]">
-              <h1 className="text-white mt-0 mb-[10px] text-[37px] font-normal leading-[45.7px] my-[0.67em]">
+              <h1 className={`${merriweather.className} text-white mt-0 mb-[10px] text-[37px] font-normal leading-[45.7px] my-[0.67em]`}>
                 Our Process
               </h1>
               <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
@@ -491,30 +491,30 @@ export default function Home() {
           <div>
             <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
               <div>
-                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                <h1 className={`${merriweather.className} text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]`}>
                   1. Submit A Request
                 </h1>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                   Just type out instructions for what you would like us to do and we will get right to work on it. If you need help articulating your project we got you covered too.
                 </p>
               </div>
             </div>
             <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
               <div>
-                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                <h1 className={`${merriweather.className} text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]`}>
                   2. Your Designers Get To Work
                 </h1>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                   Based on your instructions we will adjust your team as needed so you get the output you are looking for.
                 </p>
               </div>
             </div>
-            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+            <div className={`${merriweather.className} bg-white mb-[32px] ml-0 p-[62px_40px]`}>
               <div>
                 <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
                   3. Receive The Code Back How You Want
                 </h1>
-                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                   Whether Figma, Sketch, Adobe XD or another platform our team members are able to work with multiple tools and platforms to work with your preferences.
                 </p>
               </div>
@@ -533,7 +533,7 @@ export default function Home() {
                   The #1 Architectural-Engineering-As-A-Service Subscription
                 </h1>
                 <p className="text-white mt-0 mb-0 text-[16px] font-light leading-[30px]">
-                  Leveraging the best design talent is no longer a distant dreamLeveraging the best design talent is no longer a distant dreamLeveraging the best design talent is no longer a distant dream
+                  Leveraging the best design talent is no longer a distant dream
                 </p>
               </div>
             </div>
