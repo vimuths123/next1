@@ -35,8 +35,8 @@ export default function Home() {
               src="/images/homeright.png"
               alt=""
               className="image-9"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
               sizes="(max-width: 991px) 100vw, 55vw"
               priority
             />
@@ -122,8 +122,8 @@ export default function Home() {
               src="/images/section3home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
           <div className='w-[50%] flex justify-center items-center'>
@@ -168,8 +168,8 @@ export default function Home() {
               src="/images/section4home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
         </div>
@@ -182,8 +182,8 @@ export default function Home() {
               src="/images/section5home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
           <div className='w-[50%] flex justify-center items-center'>
@@ -226,8 +226,8 @@ export default function Home() {
               src="/images/section6home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
         </div>
@@ -255,8 +255,8 @@ export default function Home() {
             src="/images/section5home2.png"
             alt=""
             className="w-full max-w-full"
-            width={1061}
-            height={1061} // Assuming it's a square image, adjust if not
+            width={700}
+            height={700} // Assuming it's a square image, adjust if not
           />
         </div>
       </div>
@@ -393,8 +393,8 @@ export default function Home() {
               src="/images/section9home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
           <div className='w-[50%] flex justify-center items-center'>
@@ -437,8 +437,8 @@ export default function Home() {
               src="/images/section10home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
         </div>
@@ -451,8 +451,8 @@ export default function Home() {
               src="/images/section11home.png"
               alt=""
               className="w-full h-screen max-w-full align-middle inline-block"
-              width={1061}
-              height={1061} // Assuming it's a square image, adjust if not
+              width={700}
+              height={700} // Assuming it's a square image, adjust if not
             />
           </div>
           <div className='w-[50%] flex justify-center items-center'>
