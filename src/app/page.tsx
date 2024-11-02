@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { merriweather, poppins } from  './fonts';
+import { merriweather, poppins, dmSerifDisplay } from  './fonts';
 
 export default function Home() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      
       <div className="bg-[#292f36] section2">
         <div className="py-[150px]">
           <div className="container mx-auto w-[90%] max-w-[1200px]">
@@ -51,7 +51,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                    <h1 className={`text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       12
                     </h1>
                   </div>
@@ -67,7 +67,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       85
                     </h1>
                   </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       15
                     </h1>
                   </div>
@@ -98,7 +98,7 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
-                    <h1 className="font-dmserif text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]">
+                    <h1 className={`${dmSerifDisplay.className} text-[#f3eee8] text-center text-[85px] font-normal leading-[106.25px]`}>
                       95
                     </h1>
                   </div>
