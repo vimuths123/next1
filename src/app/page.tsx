@@ -136,11 +136,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Access The Top 1% of Architectural Engineering Talent
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   Leveraging the best design talent is no longer a distant dream. With Metafy&apos;s on-demand Architectural Engineering subscription service, companies across the world can now tap into the elite 1% of global pre-vetted Architectural Engineers who can swiftly power up their creative output.
                   <br /><br />
                   Companies are no longer burdened with the challenge of costly hiring, they need not worry about rapidly laddering up members to match their requirements; Metafy eliminates all these hassles and ensures that your company enjoys smooth functioning with access to top-shelf creative elements.
@@ -156,11 +156,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Effortlessly Scale Your Team
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   Our exceptional service provides big and small organizations alike with an efficient way to bring on the
                   best Architectural Engineering talent &ndash; all at a fraction of traditional costs. Whether you need just
                   one designer or are assembling an entire division from scratch, we can help you get it done without the
@@ -196,11 +196,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Flexible Pricing Options
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   If you&apos;re looking to significantly reduce your costs while accessing the best talent in the world, then Metafy&apos;s flexible pricing options is an ideal fit. We have a variety of plans to suit companies of all sizes. Depending on the amount of creative work you need to be completed we are able to create a custom plan for your specific needs.
                   <br /><br />
                   With Metafy&apos;s flexible pricing options, there&apos;s never been an easier or more cost-effective way to get the perfect team for your project.
@@ -216,11 +216,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Fast Turnarounds
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   With our powerful combination of resources at hand, we are confident that we can meet even the most difficult deadlines. No more stress or uncertainty associated with finding the right people for your job - our team is here to make sure you have the best experience possible when it comes to getting the job done in a timely manner.
                   <br /><br />
                   Our industry-leading on-demand subscription service offers companies the opportunity to tap into expert Architectural Engineering talent from around the world. Not only that, our swift turnaround times ensure projects are completed efficiently and accurately according to your specific requirements. With our global team, we are set up to accommodate even the most ambitious deadlines - giving you the perfect solution for fast turnarounds.
@@ -407,11 +407,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   20X Faster Than Hiring Internally
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   peed is the number one asset you need as an organization to win in your market. With us in your corner, we can supercharge your time to hire and get people making an impact immediately without the expensive hiring costs associated with expanding rapidly.
                   <br /><br />
                   We have teams of pre-vetted Architectural Engineers that are ready to take on even your most ambitious projects.
@@ -427,11 +427,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   Eliminate Your Hiring Costs
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   With design talent so hard to come by, it&#39;s no wonder the hiring process can become a total nightmare. From endless interviews and screenings, to painstakingly verifying a potential candidate&#39;s qualifications - why not let us take this burden away?
                   <br /><br />
                   By partnering with us you&#39;ll get access to top-notch Architectural Engineering talent who have delivered on even the toughest of tasks. Our goal is to enable you to focus on creating great products while we make sure your team is well equipped with the creative talent it needs - leaving those frustrating headaches behind.
@@ -465,11 +465,11 @@ export default function Home() {
           <div className='w-[50%] flex justify-center items-center'>
             <div className="w-[90%] mx-auto">
               <div className="max-w-[438px] mx-auto">
-                <h1 className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
+                <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 text-[37px] font-normal leading-[45.7px]`}>
                   A Dedicated Team You Can Count On
                 </h1>
                 <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
-                <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
+                <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins`}>
                   This is what we have so far &quot;With our dedicated team model it enables you to have the same experienced team members that know your business inside and out on a day-to-day basis. This is why our model succeeds where other outsourced teams fail.
                   <br /><br />
                   Working with us is like having an entire Architectural Engineering division that you don&#39;t have to worry about managing in house. Just communicate with your head of design and we can take care of the rest.
