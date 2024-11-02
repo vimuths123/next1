@@ -480,6 +480,79 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="bg-no-repeat bg-cover bg-[0_0] section12"
+        style={{ backgroundImage: `url(${'/images/section12homebg.png'})` }}
+      >
+        <div className="grid gap-x-[74px] gap-y-[24px] grid-rows-auto w-[90%] max-w-[1320px] grid-cols-[488px_1fr] auto-cols-fr items-start mx-auto pt-[140px] pb-[300px]">
+          <div className="w-[488px] bg-[#292f36] p-[50px]">
+            <div className="max-w-[388px]">
+              <h1 className="text-white mt-0 mb-[10px] text-[37px] font-normal leading-[45.7px] my-[0.67em]">
+                Our Process
+              </h1>
+              <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
+              <p className="text-white mt-0 mb-0 font-light text-[16px] leading-[30px] font-poppins">
+                Metafy is your go-to on-demand Architectural Engineering subscription service, unlocking access to the top 1% of global talent to meet your project needs without the hassle of hiring. Begin by subscribing to Metafy and defining your project requirements. Our service is designed to alleviate the stress associated with finding the right designer for your needs, instantly matching you with a top-tier professional ready to bring your vision to life. The collaboration with your designated designer is facilitated through our intuitive platform, allowing for a seamless remote working experience. Share your feedback and watch your concepts evolve, without any hassles. At the end of this collaborative journey, receive your high-quality Architectural Engineering, crafted to your specifications and ready for immediate integration into your project. And remember, your satisfaction is our priority — you have the complete freedom to request revisions to get the output just right, meeting your expectations down to the finest detail.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+              <div>
+                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                  1. Submit A Request
+                </h1>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                  Just type out instructions for what you would like us to do and we will get right to work on it. If you need help articulating your project we got you covered too.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+              <div>
+                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                  2. Your Designers Get To Work
+                </h1>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                  Based on your instructions we will adjust your team as needed so you get the output you are looking for.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+              <div>
+                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                  3. Receive The Code Back How You Want
+                </h1>
+                <p className="text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                  Whether Figma, Sketch, Adobe XD or another platform our team members are able to work with multiple tools and platforms to work with your preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="section13 pt-[240px]">
+        <div className="max-w-[1440px] bg-[#292f36] mt-[-400px] mx-auto pt-[96px] pb-[96px]">
+          <div className="w-[90%] mx-auto flex">
+            <div className="w-[80%]">
+              <div>
+                <h1 className="text-white mt-0 text-[37px] font-normal leading-[45.7px] mb-[10px] my-[0.67em]">
+                  The #1 Architectural-Engineering-As-A-Service Subscription
+                </h1>
+                <p className="text-white mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                  Leveraging the best design talent is no longer a distant dreamLeveraging the best design talent is no longer a distant dreamLeveraging the best design talent is no longer a distant dream
+                </p>
+              </div>
+            </div>
+            <div className="w-[20%] flex justify-center items-center">
+              <Link href="/contact" className="text-center text-white bg-[#a06056] px-[32px] py-[16px] font-lexend text-[16px] font-semibold leading-[18px] inline-block border-0 no-underline cursor-pointer rounded-none">
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
