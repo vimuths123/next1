@@ -1,7 +1,6 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { merriweather } from  './fonts';
+import { merriweather, poppins } from  './fonts';
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
               <h3 className={`${merriweather.className} text-[#a06056] m-0 text-[60px] font-light leading-[70px]`}>
                 Your Remote Architectural Engineering Team
               </h3>
-              <p className="text-[rgba(112,100,88,0.9)] m-0 font-poppins text-base font-light leading-[30px]">
+              <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] m-0 text-base font-light leading-[30px]`}>
                 Metafy is an on-demand Architectural Engineering subscription service that enables companies to
                 access the top 1% of global talent, eliminate their cost of hiring, and effortlessly scale their.
                 Enter your email below to get started.
