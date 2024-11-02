@@ -1,14 +1,21 @@
+"use client";
 import Image from 'next/image';
 import Link from 'next/link';
-import { merriweather, poppins, dmSerifDisplay, jost } from  './fonts';
+import { merriweather, poppins, dmSerifDisplay, jost } from './fonts';
+import AOS from 'aos';
+import { useEffect } from 'react';
+
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="min-h-screen h-auto max-h-none homebg1 section1">
         <div className="flex h-screen min-h-screen pt-[50px] xl:pt-[50px]">
 
-          <div className="flex flex-col justify-center items-center w-[45%] h-full pt-0">
+          <div className="flex flex-col justify-center items-center w-[45%] h-full pt-0" data-aos="zoom-in">
             <div className="flex flex-col w-[90%] max-w-[450px] gap-y-[30px]">
               <h3 className={`${merriweather.className} text-[#a06056] m-0 text-[60px] font-light leading-[70px]`}>
                 Your Remote Architectural Engineering Team
@@ -30,7 +37,7 @@ export default function Home() {
 
           </div>
 
-          <div className="flex flex-col justify-center items-stretch h-full w-[55%]">
+          <div className="flex flex-col justify-center items-stretch h-full w-[55%]" data-aos="zoom-in">
             <Image
               src="/images/homeright.png"
               alt=""
@@ -43,11 +50,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className="bg-[#292f36] section2">
         <div className="py-[150px]">
           <div className="container mx-auto w-[90%] max-w-[1200px]">
-            <div className="grid grid-cols-4 gap-y-6">
+            <div className="grid grid-cols-4 gap-y-6" data-aos="fade-up">
               <div className="flex items-center">
                 <div className="px-[54px]">
                   <div>
@@ -232,7 +239,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className='section7'>
         <div>
           <div className="w-[90%] flex flex-col justify-center items-center mx-auto pt-60">
