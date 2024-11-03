@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import FooterNav from "./FooterNav";
 
 const Footer = () => {
   return (
@@ -53,20 +54,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="gap-[40px] flex items-center">
-            <Link href="/" className="text-[#333] text-[16px] font-medium no-underline">
-              Home
-            </Link>
-            <Link href="/about" className="text-[#333] text-[16px] font-medium no-underline">
-              About
-            </Link>
-            <Link href="/pricing" className="text-[#333] text-[16px] font-medium no-underline">
-              Pricing
-            </Link>
-            <Link href="/mission" className="text-[#333] text-[16px] font-medium no-underline">
-              Mission
-            </Link>
-          </div>
+          <FooterNav />
         </div>
       </div>
     </footer>
