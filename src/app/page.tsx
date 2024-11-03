@@ -243,11 +243,11 @@ export default function Home() {
       <div className='section7'>
         <div>
           <div className="w-[90%] flex flex-col justify-center items-center mx-auto pt-60">
-            <h1 className={`${merriweather.className} mt-0 font-serif text-[37px] font-normal leading-[45.7px]`}>
+            <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 font-serif text-[37px] font-normal leading-[45.7px]`}>
               Designed for You
             </h1>
             <div className="w-[49px] h-[4px] bg-[#a06056] my-[26px]"></div>
-            <div className="max-w-[821px] text-center mx-auto">
+            <div data-aos="fade-up" className="max-w-[821px] text-center mx-auto">
               <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                 We&apos;ve designed and curated pieces that are a cut above your average home goods, because when you level up your everyday objects, you elevate your daily rituals. Let the magic happen.
               </p>
@@ -279,7 +279,7 @@ export default function Home() {
               height={45}
             />
             <div className="w-[450px] text-center flex flex-col justify-center items-center mb-[100px]">
-              <h1 className={`${merriweather.className} mt-0 font-merriweather text-[37px] font-normal leading-[45.7px]`}>
+              <h1 data-aos="fade-up" className={`${merriweather.className} mt-0 font-merriweather text-[37px] font-normal leading-[45.7px]`}>
                 What Other Companies Are Saying
               </h1>
               <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]">
@@ -300,14 +300,14 @@ export default function Home() {
                       <h1 className="text-[#666] mt-0 mb-0 text-[14.4px] font-extrabold leading-[19.67px]">
                         Kristin Watson
                       </h1>
-                      <p className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
+                      <p data-aos="fade-up" className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
                         Marketing Coordinator
                       </p>
                     </div>
 
                   </div>
                   <div className="p-[20px] pr-0">
-                    <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
+                    <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                       Growing our team was a breeze. We instantly had access to some of the best talent in the world without
                       any of the overhead cost associated with traditional hiring. We found that it was easy to
                       effortlessly scale our team to suit our needs and we could do so quickly and with confidence.
@@ -334,13 +334,13 @@ export default function Home() {
                       <h1 className="text-[#666] mt-0 mb-0 text-[14.4px] font-extrabold leading-[19.67px]">
                         Erica Morgan
                       </h1>
-                      <p className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
+                      <p data-aos="fade-up" className="text-[#666] mt-0 mb-0 font-manrope text-[9.6px] leading-[13.11px]">
                         Human Resource Manager
                       </p>
                     </div>
                   </div>
                   <div className="p-[20px] pr-0">
-                    <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
+                    <p data-aos="fade-up" className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
                       They are able to get us the marketing creative we need quickly to help us close more sales. Its been an absolute pleasure working with them.
                     </p>
 
@@ -486,7 +486,7 @@ export default function Home() {
         <div className="grid gap-x-[74px] gap-y-[24px] grid-rows-auto w-[90%] max-w-[1320px] grid-cols-[488px_1fr] auto-cols-fr items-start mx-auto pt-[140px] pb-[300px]">
           <div className="w-[488px] bg-[#292f36] p-[50px]">
             <div className="max-w-[388px]">
-              <h1 className={`${merriweather.className} text-white mt-0 mb-[10px] text-[37px] font-normal leading-[45.7px] my-[0.67em]`}>
+              <h1 data-aos="fade-up" className={`${merriweather.className} text-white mt-0 mb-[10px] text-[37px] font-normal leading-[45.7px] my-[0.67em]`}>
                 Our Process
               </h1>
               <div className="w-[49px] h-[4px] bg-[#a06056] mt-[26px] mb-[26px]"></div>
@@ -496,7 +496,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+            <div data-aos="fade-up" className="bg-white mb-[32px] ml-0 p-[62px_40px]">
               <div>
                 <h1 className={`${merriweather.className} text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]`}>
                   1. Submit A Request
@@ -506,7 +506,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="bg-white mb-[32px] ml-0 p-[62px_40px]">
+            <div data-aos="fade-up" className="bg-white mb-[32px] ml-0 p-[62px_40px]">
               <div>
                 <h1 className={`${merriweather.className} text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]`}>
                   2. Your Designers Get To Work
@@ -516,9 +516,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className={`${merriweather.className} bg-white mb-[32px] ml-0 p-[62px_40px]`}>
+            <div data-aos="fade-up" className="bg-white mb-[32px] ml-0 p-[62px_40px]">
               <div>
-                <h1 className="text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]">
+                <h1 className={`${merriweather.className} text-[25px] leading-[48px] mt-0 font-normal mb-[10px] my-[0.67em]`}>
                   3. Receive The Code Back How You Want
                 </h1>
                 <p className={`${poppins.className} text-[rgba(112,100,88,0.9)] mt-0 mb-0 text-[16px] font-light leading-[30px]`}>
@@ -536,10 +536,10 @@ export default function Home() {
           <div className="w-[90%] mx-auto flex">
             <div className="w-[80%]">
               <div>
-                <h1 className="text-white mt-0 text-[37px] font-normal leading-[45.7px] mb-[10px] my-[0.67em]">
+                <h1 data-aos="fade-up" className="text-white mt-0 text-[37px] font-normal leading-[45.7px] mb-[10px] my-[0.67em]">
                   The #1 Architectural-Engineering-As-A-Service Subscription
                 </h1>
-                <p className="text-white mt-0 mb-0 text-[16px] font-light leading-[30px]">
+                <p data-aos="fade-up" className="text-white mt-0 mb-0 text-[16px] font-light leading-[30px]">
                   Leveraging the best design talent is no longer a distant dream
                 </p>
               </div>
