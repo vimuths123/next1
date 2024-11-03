@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image'
-import { poppins } from  '../app/fonts';
-import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import Nav from "@/components/Nav";
 
 const Header = () => {
